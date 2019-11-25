@@ -1,0 +1,150 @@
+.chat-btn {
+    display: inline-block;
+	color: red;
+}
+
+.chat-wrapper{
+    width: 320px;
+    height: 500px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.chat-box {
+    width: 300px;
+    height: 490px;
+    overflow: auto;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.chat-msgs {
+	overflow-y: auto;
+  	overflow-x: hidden;
+  	background-color: #fbf3d4;
+  	border-radius: 10px;
+  	padding: 10px;
+  	height: 370px;
+  	position: relative;
+  	top: 40px;
+}
+
+.chat-textarea {
+	display: block;
+	width: 220px;
+	margin-top: 5px;
+	resize: none;
+	border-radius: 10px;
+    position: absolute;
+    bottom: 5px;	
+}
+
+.chat-send-btn {
+	display: inline-block;
+    border: 1px solid #FF8C00;
+    color: #FF8C00;
+    border-radius: 20px;
+    background-color: white;
+    height: 50px;
+    width:  50px;
+    position: absolute;
+    right: 10px;
+  	bottom: 8px;
+}
+
+.chat-close {
+	display: inline-block;
+	font-size: 32px;
+	line-height: 0.5;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+
+.chat-header {
+	font-weight: bold;
+  	text-align: center;
+  	padding: 5px 5px 5px 35px;
+  	top: 10px;
+	position: absolute;
+}
+
+.chat-textarea:focus,
+.chat-send-btn:focus {
+	outline-width: 0;
+}
+
+.chat-send-btn:hover {
+    background-color: #FED8B1;
+}
+
+.bubble{
+    max-width: 220px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    position: relative;
+}
+
+.left-chat{
+    float: left;
+    clear: both;
+    background-color: #e1ffc7;
+    text-align: left;
+}
+
+.right-chat{
+    float: right;
+    clear: both;
+    background-color: orange;
+    text-align: right;
+}
+
+.bubble.right-chat:before {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: auto;
+    right: -15px;
+    top: 0;
+    bottom: auto;
+    border: 15px solid;
+    border-color: orange transparent transparent transparent;
+}
+
+.bubble.left-chat:after {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -15px;
+    right: auto;
+    top: 0px;
+    bottom: auto;
+    border: 15px solid;
+    border-color: #e1ffc7 transparent transparent transparent;
+}
+
+.chat-option {
+    font-weight: bold;
+    color: #05A4FA;
+} 
+
+.chat-option:hover,
+.chat-close:hover {
+    color: #FF8C00;
+}

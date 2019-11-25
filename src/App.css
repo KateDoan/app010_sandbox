@@ -1,0 +1,231 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.navbar-dark {
+  background-color: #05a4fa;
+}
+
+.axis { font: 14px sans-serif; }
+
+.page-padding-start-end {
+  height: 15vh;
+}
+
+.page-padding-top {
+  height: 5vh;
+}
+
+.page-padding-middle {
+  height: 5vh;
+}
+
+.page-padding-bottom {
+  height: 20vh;
+}
+
+.error, .bad, .warn {
+  color: red;
+}
+
+.moderate {
+  color: #FF8C00;
+}
+
+.good {
+  color: green;
+}
+
+.msg-frame {
+  border: 1px solid;
+  border-color: #05A4FA;
+  border-radius: 25px;
+  padding: 15px;
+  text-align: left;
+}
+
+.btn:focus, .btn:active, .btn:hover {
+  outline: 0 !important;
+  outline-offset: 0 !important;
+  background-image: none !important;
+  box-shadow: none !important;
+}
+
+.butt {
+  border: 1px solid;
+  border-color: #05A4FA;
+  background-color: white;
+  border-radius: 25px;
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+  outline: 0 !important;
+  outline-offset: 0 !important;
+  background-image: none !important;
+  box-shadow: none !important;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  z-index: 2;
+}
+
+.butt:hover {
+  border-color: #FF8C00;
+  background-color: #FED8B1;
+}
+
+.butt > p, .butt > span {
+  color: #05A4FA;
+  font-weight: bold;
+}
+
+.butt:hover > p,
+.butt:hover > span {
+  color: white;
+}
+
+.chosen {
+  border-color: #FF8C00;
+  border-width: 4px;
+}
+
+.chosen > p, .chosen > span {
+  color: #FF8C00;
+}
+
+.pink > p, .pink > span {
+  color: #FF1493;
+}
+
+.butt-nav {
+  background-color: white;
+}
+
+.butt-nav > p {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.next > p, .next > span {
+  color: #FF8C00;
+}
+
+.previous > p, .previous > span,
+.refresh > p, .refresh > span {
+  color: #05A4FA;
+}
+
+input { 
+  text-align: center; 
+}
+
+.pt-6 {
+  padding-top: 6px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.modal-content {
+  border-radius: 25px !important;
+}
+
+.sq-lg {
+  width: 125px;
+  height: 125px;
+}
+
+.rect {
+  width: 187px;
+  height: 135px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+}
+
+.zoom-icon {
+  text-align: right;
+  padding-bottom: 0;
+  padding-right: 0;
+  margin-bottom: -10px;
+  margin-right: -10px;
+}
+
+.lg-text {
+  font-size: 18px;
+}
+
+.largerA {
+  font-size: 18px;
+  color: #05A4FA;
+}
+
+.smallerA {
+  font-size: 14px;
+  color: #05A4FA;
+}
+
+.question {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.msg-title {
+  font-size: 24px;
+}
+
+.technical-term {
+  font-weight: bold;
+  color: #FF1493;
+}
+
+.nav-background {
+  height: 80px;
+  background-color: white;
+  opacity: 0.9;
+}
+
+.welcome {
+  font-size: 36px;
+  color: #05A4FA;
+}
+
+.beat {
+  width: 200px;
+}
+
+.health-link {
+  font-size: 18px;
+  font-weight: bold;
+  color: #05A4FA;;
+}
+
+.healthhub-ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.about-logo {
+  height: 80px;
+}
