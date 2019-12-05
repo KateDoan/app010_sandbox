@@ -9,8 +9,8 @@
     overflow-x: hidden;
     padding: 5px;
     position: fixed;
-    top: 0;
-    left: 0;
+    bottom: 90px;
+    right: 0;
 }
 
 .chat-box {
@@ -23,8 +23,8 @@
     padding: 10px;
     background-color: white;
     position: absolute;
-    top: 0;
-    left: 0;
+    bottom: 0;
+    right: 0;
 }
 
 .chat-msgs {

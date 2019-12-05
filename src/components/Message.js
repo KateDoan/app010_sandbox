@@ -331,8 +331,7 @@ class Message extends Component {
 	                    one time during the week. Additionally, try and ask for less
 	                    sugar when ordering tea, coffee, milo, and try cutting sodas
 	                    out of your diet altogether. As well, you could eat
-	                    the whole fruits instead of drinking juices, as this increases
-	                    the nutritional value.
+	                    whole fruits instead of drinking juices to get more of the nutritional value.
 					</span>
 				);
   			} else if (drink === 2) {

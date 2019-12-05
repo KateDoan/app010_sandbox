@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { FormGroup, Label, Row, Col, Input } from 'reactstrap';
+import NextBtn from './NextButton';
 
 class BMIForm extends Component {
   render() {
@@ -71,6 +72,7 @@ class BMIForm extends Component {
                     <div> {this.props.errors.bmi} </div>
                 </div>
             </div>
+            <NextBtn next={() => {}} />
         </div>
     )
   }
