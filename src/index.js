@@ -9,10 +9,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { library } from '@fortawesome/fontawesome-svg-core'
 //import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlayCircle, faHeartbeat, faInfoCircle, faList, faMars, faVenus, faBackward,
-		 faForward, faUndo, faComments, faPaperPlane } from '@fortawesome/free-solid-svg-icons'
+		 faForward, faUndo, faComments, faPaperPlane, faSpinner } from '@fortawesome/free-solid-svg-icons'
 
 library.add(faPlayCircle, faHeartbeat, faInfoCircle, faList, faMars, faVenus, faBackward,
-		 	faForward, faUndo, faComments, faPaperPlane)
+		 	faForward, faUndo, faComments, faPaperPlane, faSpinner)
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
