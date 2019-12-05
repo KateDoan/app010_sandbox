@@ -28,7 +28,6 @@ export const postPredict = (gender, race, age, bmi, smoke, veg, exercise) => (di
         veg: veg,
         exercise: exercise
     }
-    console.log('User ', newUser);
 
     return fetch(baseUrl + 'ages', {
         method: 'POST',
@@ -62,8 +61,6 @@ export const postCount = (counterName) => (dispatch) => {
     const counter = {
         "name": counterName
     }
-
-    console.log('Counter ', counter);
 
     return fetch(baseUrl + 'counters', {
         method: 'POST',
