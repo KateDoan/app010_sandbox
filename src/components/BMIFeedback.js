@@ -54,7 +54,7 @@ class BMIFeedback extends Component {
 			return null;
 		}
 
-		const bmi = Math.round(props.weight/Math.pow(props.height/100, 2), 1);
+		const bmi = (props.weight/Math.pow(props.height/100, 2.0)).toFixed(1);
 		
 		const bmiClass = classifyBMI(bmi);
 

@@ -205,7 +205,7 @@ class Message extends Component {
 			                        polyclinics or by visiting your GP. Or you can buy a blood sugar monitor.
   						       </span>);
   				}
-  			} else if (gesDiab === 1 && htn === 1 && family === 1) {
+  			} else if (gesDiab === 1 || htn === 1 || family === 1) {
 				if (ageNow >= 40) {
 					msgMed3 = (<span>
 	  							    Furthermore, please monitor your blood sugar level closely, especially
