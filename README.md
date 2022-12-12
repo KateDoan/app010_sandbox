@@ -1,3 +1,5 @@
+This repository contains the React code for a personalized risk prediction application.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
